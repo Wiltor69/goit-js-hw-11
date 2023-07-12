@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page title</title>
+  <link rel="stylesheet" href="./css/main.css" />
+
+</head>
+
+<body>
+  <!-- ❗️❗️❗️ Add partials like so for every page
+    <include src="./partials/example.html"></include> -->
+
+
+
+
+  <form class="search-form" id="search-form">
+    <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+    <button type="submit" class="button-text">Search</button>
+  </form>
+
+
+  <div class="gallery"></div>
+  <button type="button" class="load-more js-load-more hidden" disabled>
+    Load more
+  </button>
+  <span class="loader" style="display: none"></span>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
